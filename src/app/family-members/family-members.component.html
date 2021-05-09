@@ -2,9 +2,8 @@
   <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
-      <h2>Identify the person</h2>
       <div class="text-center questionContainer">
-         <h1>Who is {{imageList[index].name}} ?</h1>
+         <h1>{{imageList[index].name}} ?</h1>
       </div>
     </div>
     <div class="choiceContainer row p-t-2">

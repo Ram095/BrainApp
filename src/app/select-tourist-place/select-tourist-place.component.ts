@@ -18,25 +18,140 @@ export class SelectTouristPlaceComponent implements OnInit {
   index=0;
 
   imageList = [
-    { name: 'Mysore Palace', url: './assets/IMG_20191214_130421.jpg', options: [{
-      place: 'Mysore Palace'}, { place: 'Iskon Temple' }, {place: 'Pamban Bridge'}]},
-    { name: 'Thanjavur Temple', url: './assets/IMG-20191101-WA0041.jpg', options: [{
-      place: 'Iskon Temple'}, { place: 'Thanjavur Temple' }]},
-    { name: 'Srinagar', url: './assets/Srinagar2.jpeg', options: [{
-        place: 'Thanjavur Temple'}, { place: 'Srinagar' }, {place: 'Kota, Rajasthan'}, {place: 'Assam'}]},
-    { name: 'Yelagiri Temple', url: './assets/IMG_20200117_173138.jpg', options: [{
-      place: 'Mysore Palace'}, { place: 'Rameshwaram Temple' }, {place: 'Yelagiri Temple'}, {place: 'Iskon Temple'}]},
-    { name: 'Golden Temple', url: './assets/goldenTemple.jpeg', options: [{
-      place: 'Mysore Palace'}, { place: 'Golden Temple' }, {place: 'Yelagiri Temple'}, {place: 'Iskon Temple'}]},
-    { name: 'Taj hotel', url: './assets/tajHotelMumbai.jpeg', options: [{
-      place: 'Mysore Palace'}, { place: 'Golden Temple' }, {place: 'Taj hotel'}, {place: 'Iskon Temple'}]},
-    { name: 'Amritsar', url: './assets/jaliawalaBagh.jpeg', options: [{
-      place: 'Mysore Palace'}, { place: 'Amritsar' }, {place: 'Iskon Temple'}]},
-    { name: 'Mumbai', url: './assets/gatewayOfIndia.jpeg', options: [{
-      place: 'Mumbai'}, { place: 'Golden Temple' }, {place: 'Iskon Temple'}]},
-    { name: 'Srinagar', url: './assets/Srinagar.jpeg', options: [{
-      place: 'Thanjavur Temple'}, { place: 'Srinagar' }, {place: 'Kota, Rajasthan'}, {place: 'Assam'}]}
+    {
+      name: 'Mysore Palace',
+      url: './assets/IMG_20191214_130421.jpg',
+      options: [
+        {
+          place: 'Mysore Palace'
+        },
+        {
+          place: 'Iskon Temple'
+        },
+        {
+          place: 'Pamban Bridge'
+        }
+      ]
+    },
+    {
+      name: 'Thanjavur Temple',
+      url: './assets/IMG-20191101-WA0041.jpg',
+      options: [
+        {
+          place: 'Iskon Temple'
+        },
+        {
+          place: 'Thanjavur Temple'
+        }
+      ]
+    },
+    {
+      name: 'Srinagar',
+      url: './assets/Srinagar2.jpeg',
+      options: [
+        {
+          place: 'Thanjavur Temple'
+        },
+        {
+          place: 'Srinagar'
+        },
+        {
+          place: 'Kota, Rajasthan'
+        }
+      ]
+    },
+    {
+      name: 'Yelagiri Temple',
+      url: './assets/IMG_20200117_173138.jpg',
+      options: [
+        {
+          place: 'Mysore Palace'
+        },
+        {
+          place: 'Rameshwaram Temple'
+        },
+        {
+          place: 'Yelagiri Temple'
+        }
+      ]
+    },
+    {
+      name: 'Golden Temple',
+      url: './assets/goldenTemple.jpeg',
+      options: [
+        {
+          place: 'Mysore Palace'
+        },
+        {
+          place: 'Golden Temple'
+        },
+        {
+          place: 'Yelagiri Temple'
+        }
+      ]
+    },
+    {
+      name: 'Taj hotel',
+      url: './assets/tajHotelMumbai.jpeg',
+      options: [
+        {
+          place: 'Mysore Palace'
+        },
+        {
+          place: 'Golden Temple'
+        },
+        {
+          place: 'Taj hotel'
+        }
+      ]
+    },
+    {
+      name: 'Amritsar',
+      url: './assets/jaliawalaBagh.jpeg',
+      options: [
+        {
+          place: 'Mysore Palace'
+        },
+        {
+          place: 'Amritsar'
+        },
+        {
+          place: 'Iskon Temple'
+        }
+      ]
+    },
+    {
+      name: 'Mumbai',
+      url: './assets/gatewayOfIndia.jpeg',
+      options: [
+        {
+          place: 'Mumbai'
+        },
+        {
+          place: 'Golden Temple'
+        },
+        {
+          place: 'Iskon Temple'
+        }
+      ]
+    },
+    {
+      name: 'Srinagar',
+      url: './assets/Srinagar.jpeg',
+      options: [
+        {
+          place: 'Thanjavur Temple'
+        },
+        {
+          place: 'Srinagar'
+        },
+        {
+          place: 'Kota, Rajasthan'
+        }
+      ]
+    }
   ]
+  
   constructor() { }
 
   ngOnInit(): void {

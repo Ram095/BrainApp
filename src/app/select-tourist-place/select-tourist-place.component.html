@@ -2,14 +2,13 @@
   <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
-      <h2>Identify the location/Place?</h2>
       <div class="imageContainer">
         <img src="{{imageList[index].url}}"/>
       </div>
     </div>
     <div class="choiceContainer row">
       <div >
-        <button *ngFor="let options of imageList[index].options" class="btn btn-primary" (click)="submit(options.place)">
+        <button *ngFor="let options of imageList[index].options" class="btn btn-outline-primary" (click)="submit(options.place)">
           {{options.place}}
         </button>
       </div>
