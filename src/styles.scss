@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: 'Mulish', sans-serif;
+}
+  .btn-primary {
+    background-color: #133a73;
+    border-color: #133a73;
+  }
+
+  .btn-danger {
+    color: #fff;
+    background-color: #86121d;
+    border-color: #86121d;
+    }
+
+  .p-t-2{
+    padding-top: 2rem;
+  }
+
+  .p-t-3{
+    padding-top: 3rem;
+  }
+
+  section{
+    padding: 2rem;
+  }
+
+  h2{
+    text-transform: uppercase;
+  }
+
+  .testContainer
+  {
+    &__anchor {
+      display: flex;
+      position: absolute;
+      left: 0;
+      padding-left: 2rem;
+      cursor: pointer;
+      fa-icon{
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .imageContainer{
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    img{
+      height: 400px;
+    }
+  }

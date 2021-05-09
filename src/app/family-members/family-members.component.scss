@@ -1,0 +1,40 @@
+.questionContainer{
+  padding: 4rem;
+}
+
+.familyImageContainer{
+    width: 300px;
+    text-align: center;
+    height: 250px;
+    img{
+      height: 250px;
+    }
+  }
+
+  .choiceContainer{
+    &__image{
+      display: flex;
+      justify-content: space-around;
+      img {
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.2);
+          transition: 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+
+
+.m-t-1{
+  margin-top:1rem;
+}
+
+.resultbtnContainer{
+  display: flex;
+  button{
+    width: 100%;
+    font-size: 2rem;
+    height: 200px;
+  }
+}

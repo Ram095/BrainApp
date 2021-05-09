@@ -1,0 +1,51 @@
+<section>
+  <div class="p-t-3 text-center">
+    <h4>Brain App</h4>
+  </div>
+  <ng-container *ngIf="!showTopicsList; else topicList">
+    <div class="dashboardImage text-center">
+      <img src="./assets/34591-content-marketing.gif" />
+    </div>
+    <div class="text-center">
+      <button class="getStarted btn btn-primary" (click)="showTopics()" >
+        Get Started
+      </button>
+    </div>
+  </ng-container>
+  <ng-template #topicList>
+    <div class="container-fluid p-t-2">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+          <div class="card" [routerLink]="['/animals']" routerLinkActive="active">
+            <div class="card__container">
+              <img class="card-img-top" src="https://petsymptoms.com/wp-content/uploads/2017/06/golden-retriever-wagging-tail-Dog-Tail-ss-FEATURE.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Animals</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+          <div class="card" [routerLink]="['/tourist-place']" routerLinkActive="active">
+            <div class="card__container">
+              <img class="card-img-top" src="https://curlytales.com/wp-content/uploads/2019/01/depositphotos_116925416-stock-photo-mysore-palace-in-mysore-india.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tourist Places</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+          <div class="card" [routerLink]="['/family-members']" routerLinkActive="active">
+            <div class="card__container">
+              <img class="card-img-top" src="./assets/IMG_20191215_113923.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Family Members</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</section>
