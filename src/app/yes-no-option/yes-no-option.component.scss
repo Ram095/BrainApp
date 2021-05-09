@@ -1,11 +1,15 @@
 .choiceContainer{
   padding-top: 2rem;
-
+  &__tickMark {
+    text-align: center;
+    height : 100%;
+    width: 250px;
+  }
 }
 button{
   width: 100%;
   font-size: 2rem;
-  height: 200px;
+  height: 250px;
 }
 
 .m-t-1{
@@ -15,3 +19,4 @@ button{
 .resultbtnContainer{
   display: flex;
 }
+

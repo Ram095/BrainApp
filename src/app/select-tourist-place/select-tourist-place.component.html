@@ -1,17 +1,20 @@
-<section>
+<section *ngIf="imageList.length>0">
   <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
       <h2>Identify the location/Place?</h2>
-      <div class="imageContainer">
+      <div class="imageContainer p-t-2">
         <img src="{{imageList[index].url}}"/>
       </div>
     </div>
-    <div class="choiceContainer row">
-      <div >
-        <button *ngFor="let options of imageList[index].options" class="btn btn-primary" (click)="submit(options.place)">
-          {{options.place}}
-        </button>
+    <div class="choiceContainer row p-t-2">
+      <div *ngFor="let options of imageList[index].options">
+        <ng-template #showImage>
+          <button  class="btn btn-primary" (click)="submit(options.place)">
+            {{options.place}}
+          </button>
+        </ng-template>
+        <iframe  *ngIf="(options.place === imageList[index].name) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
       </div>
     </div>
   </ng-container>
