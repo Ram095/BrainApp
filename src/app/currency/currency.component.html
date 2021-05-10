@@ -2,19 +2,19 @@
   <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
-      <h2>Identify the person</h2>
-      <div class="text-center questionContainer">
-         <h1>{{imageList[index].name}} ?</h1>
+      <h2>Identify the Currency Value?</h2>
+      <div class="imageContainer p-t-2">
+        <img src="{{imageList[index].url}}"/>
       </div>
     </div>
-    <div class="choiceContainer  p-t-2">
-      <div class="choiceContainer__image row">
-        <div class="familyImageContainer col-lg-3" *ngFor="let options of imageList[index].options" >
-          <ng-template #showImage>
-            <img src="{{options.photo}}" (click)="submit(options.name)" />
-          </ng-template>
-          <iframe  *ngIf="(options.name === imageList[index].name) && correctChoice; else showImage" class="familyImageContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
-        </div>
+    <div class="choiceContainer row p-t-2">
+      <div *ngFor="let options of imageList[index].options">
+        <ng-template #showImage>
+          <button  class="btn btn-primary" (click)="submit(options.name)">
+            {{options.name}}
+          </button>
+        </ng-template>
+        <iframe  *ngIf="(options.name === imageList[index].name) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
       </div>
     </div>
   </ng-container>

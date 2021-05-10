@@ -1,0 +1,34 @@
+.choiceContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  >div{
+    width: auto;
+  }
+  button {
+    width: 300px;
+    height: 200px;
+    font-size:3rem;
+    margin: 1rem;
+    text-transform: uppercase;
+  }
+  &__tickMark {
+    height : 100%;
+    width: 200px;
+  }
+}
+
+
+.m-t-1{
+  margin-top:1rem;
+}
+
+.resultbtnContainer{
+  display: flex;
+  button{
+    width: 100%;
+    font-size: 2rem;
+    height: 200px;
+  }
+}

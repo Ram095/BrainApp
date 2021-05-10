@@ -9,13 +9,17 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SelectTouristPlaceComponent } from './select-tourist-place/select-tourist-place.component';
 import { FamilyMembersComponent } from './family-members/family-members.component';
 import {HttpClientModule} from '@angular/common/http';
+import { CurrencyComponent } from './currency/currency.component';
+import { MathsComponent } from './maths/maths.component';
 @NgModule({
   declarations: [
     AppComponent,
     YesNoOptionComponent,
     DashboardComponent,
     SelectTouristPlaceComponent,
-    FamilyMembersComponent
+    FamilyMembersComponent,
+    CurrencyComponent,
+    MathsComponent
   ],
   imports: [
     BrowserModule,
