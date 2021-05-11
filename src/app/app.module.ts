@@ -11,6 +11,7 @@ import { FamilyMembersComponent } from './family-members/family-members.componen
 import {HttpClientModule} from '@angular/common/http';
 import { CurrencyComponent } from './currency/currency.component';
 import { MathsComponent } from './maths/maths.component';
+import { SoundIdentifyComponent } from './sound-identify/sound-identify.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { MathsComponent } from './maths/maths.component';
     SelectTouristPlaceComponent,
     FamilyMembersComponent,
     CurrencyComponent,
-    MathsComponent
+    MathsComponent,
+    SoundIdentifyComponent
   ],
   imports: [
     BrowserModule,

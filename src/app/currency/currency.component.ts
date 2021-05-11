@@ -26,31 +26,31 @@ export class CurrencyComponent implements OnInit {
 
   imageList = [
   {
-      name: '1', url : 'https://en.numista.com/catalogue/photos/inde/3180-original.jpg', options: [{ name: '200'}, { name: '1'}, { name: '5'}]
+      name: '1', url : './assets/currency/1.jpeg', options: [{ name: '200'}, { name: '1'}, { name: '5'}]
   },
   {
-    name: '2', url : 'https://en.numista.com/catalogue/photos/inde/3205-original.jpg', options: [{ name: '2'}, { name: '1'}, { name: '5'}]
+    name: '2', url : './assets/currency/2.jpeg', options: [{ name: '2'}, { name: '1'}, { name: '5'}]
   },
   {
-    name: '5', url : 'https://en.numista.com/catalogue/photos/inde/3070-original.jpg', options: [{ name: '200'}, { name: '1'}, { name: '5'}]
+    name: '5', url : './assets/currency/5.jpeg', options: [{ name: '200'}, { name: '1'}, { name: '5'}]
   },
   {
-    name: '10', url : 'https://paisaboltahai.rbi.org.in/images/Rs10/10-note-front.png', options: [{ name: '10'}, { name: '50'}, { name: '100'}]
+    name: '10', url : './assets/currency/10.png', options: [{ name: '10'}, { name: '50'}, { name: '100'}]
   },
   {
-    name: '100', url : 'https://www.bidcurios.com/wp-content/uploads/2021/01/IMG_20210111_0037.jpg', options: [{ name: '200'}, { name: '100'}, { name: '500'}]
+    name: '100', url : './assets/currency/100.png', options: [{ name: '200'}, { name: '100'}, { name: '500'}]
   },
   {
-    name: '200', url : 'https://paisaboltahai.rbi.org.in/images/Rs200/200-note-front-ho.png', options: [{ name: '20'}, { name: '10'}, { name: '200'}]
+    name: '200', url : './assets/currency/200.png', options: [{ name: '20'}, { name: '10'}, { name: '200'}]
   },
   {
-    name: '50', url : 'https://upload.wikimedia.org/wikipedia/commons/3/3f/India_new_50_INR%2C_MG_series%2C_2018%2C_obverse.jpg', options: [{ name: '50'}, { name: '100'}, { name: '2000'}]
+    name: '50', url : './assets/currency/50.png', options: [{ name: '50'}, { name: '100'}, { name: '2000'}]
   },
   {
-    name: '2000', url : 'https://miro.medium.com/max/5596/1*wftM0F6R5avdeJ84mBURaA.jpeg', options: [{ name: '2000'}, { name: '10'}, { name: '200'}]
+    name: '2000', url : './assets/currency/2000.jpeg', options: [{ name: '2000'}, { name: '10'}, { name: '200'}]
   },
   {
-    name: '20', url : 'https://www.collectorbazar.com/images/products/20-rs-super-fancy-number-666666-gem-unc-note-115442-1.jpeg', options: [{ name: '200'}, { name: '20'}, { name: '500'}]
+    name: '20', url : './assets/currency/20.png', options: [{ name: '200'}, { name: '20'}, { name: '500'}]
   }]
 
   constructor(private dataLayer : DataLayerService) { }

@@ -1,0 +1,21 @@
+.soundContainer{
+  width: 100%;
+  text-align: center;
+}
+
+.choiceContainer {
+  &__tickMark {
+    height : 100%;
+    width: 300px;
+  }
+}
+
+
+.resultbtnContainer{
+  display: flex;
+  button{
+    width: 100%;
+    font-size: 2rem;
+    height: 200px;
+  }
+}

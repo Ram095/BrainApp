@@ -1,6 +1,6 @@
 <section>
-  <div class="p-t-3 text-center">
-    <h4>Brain App</h4>
+  <div class="p-t-2 text-center">
+    <h4>CongniFitness App</h4>
   </div>
   <ng-container *ngIf="!showTopicsList; else topicList">
     <div class="dashboardImage text-center">
@@ -15,7 +15,7 @@
   <ng-template #topicList>
     <div class="container-fluid p-t-2">
       <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 p-10">
           <div class="card" [routerLink]="['/animals']" routerLinkActive="active">
             <div class="card__container">
               <img class="card-img-top" src="https://petsymptoms.com/wp-content/uploads/2017/06/golden-retriever-wagging-tail-Dog-Tail-ss-FEATURE.jpg" alt="Card image cap">
@@ -25,7 +25,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 p-10">
           <div class="card" [routerLink]="['/tourist-place']" routerLinkActive="active">
             <div class="card__container">
               <img class="card-img-top" src="https://curlytales.com/wp-content/uploads/2019/01/depositphotos_116925416-stock-photo-mysore-palace-in-mysore-india.jpg" alt="Card image cap">
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 p-10">
           <div class="card" [routerLink]="['/family-members']" routerLinkActive="active">
             <div class="card__container">
               <img class="card-img-top" src="./assets/IMG_20191215_113923.jpg" alt="Card image cap">
@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 p-10">
           <div class="card" [routerLink]="['/currency']" routerLinkActive="active">
             <div class="card__container">
               <img class="card-img-top" src="https://theqna.org/wp-content/uploads/2020/09/History-of-Indian-currency-notes-and-coins-1.jpg" alt="Card image cap">
@@ -55,16 +55,16 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
-          <div class="card" [routerLink]="['/maths']" routerLinkActive="active">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 p-10">
+          <div class="card" [routerLink]="['/sound']" routerLinkActive="active">
             <div class="card__container">
-              <img class="card-img-top" src="https://theqna.org/wp-content/uploads/2020/09/History-of-Indian-currency-notes-and-coins-1.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./assets/sound.jpeg" alt="Card image cap">
             </div>
             <div class="card-body">
-              <h5 class="card-title">Maths</h5>
+              <h5 class="card-title">Identify Sound</h5>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
   </ng-template>

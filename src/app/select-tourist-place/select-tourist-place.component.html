@@ -7,14 +7,18 @@
         <img src="{{imageList[index].url}}"/>
       </div>
     </div>
-    <div class="choiceContainer row p-t-2">
-      <div *ngFor="let options of imageList[index].options">
-        <ng-template #showImage>
-          <button  class="btn btn-primary" (click)="submit(options.place)">
-            {{options.place}}
-          </button>
-        </ng-template>
-        <iframe  *ngIf="(options.place === imageList[index].name) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
+    <div class="container">
+      <div class="choiceContainer row p-t-2">
+        <div class="col-lg-4 text-center" *ngFor="let options of imageList[index].options">
+          <ng-template #showImage>
+            <div class="card"  (click)="submit(options.place)">
+              <div class="card__container">
+                 {{options.place}}
+              </div>
+            </div>
+          </ng-template>
+          <iframe  *ngIf="(options.place === imageList[index].name) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
+        </div>
       </div>
     </div>
   </ng-container>

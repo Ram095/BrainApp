@@ -7,13 +7,17 @@
          <h1>{{imageList[index].name}} ?</h1>
       </div>
     </div>
-    <div class="choiceContainer  p-t-2">
-      <div class="choiceContainer__image row">
-        <div class="familyImageContainer col-lg-3" *ngFor="let options of imageList[index].options" >
+    <div class="container">
+      <div class="choiceContainer row p-t-2">
+        <div class="col-lg-3 text-center" *ngFor="let options of imageList[index].options">
           <ng-template #showImage>
-            <img src="{{options.photo}}" (click)="submit(options.name)" />
+            <div class="card"  (click)="submit(options.name)">
+              <div class="card__container">
+                <img class="card-img-top" src="{{options.photo}}" >
+              </div>
+            </div>
           </ng-template>
-          <iframe  *ngIf="(options.name === imageList[index].name) && correctChoice; else showImage" class="familyImageContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
+          <iframe  *ngIf="(options.name === imageList[index].name) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
         </div>
       </div>
     </div>
