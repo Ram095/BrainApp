@@ -1,0 +1,108 @@
+$color-bluish: #133a73;
+
+.questionContainer{
+  padding: 4rem;
+}
+
+.m-t-1{
+  margin-top:1rem;
+}
+
+.resultbtnContainer{
+  display: flex;
+  button{
+    width: 100%;
+    font-size: 2rem;
+    height: 200px;
+  }
+}
+
+.choiceContainer {
+  &__tickMark {
+    height : 200px;
+    width: 100px;
+    padding-top: 1rem;
+  }
+}
+
+.card{
+  margin: 10px;
+  border-radius: 20px;
+  &__container{
+    font-size: 1.5rem;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.c-button {
+  color: #000;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1em;
+  height:200px;
+  text-decoration: none;
+  padding: .7em 1.8em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+
+}
+
+.c-button--gooey {
+  color: $color-bluish;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 4px solid #DAD5D1;
+  border-radius: 0;
+  padding: 1.2em 3.4em;
+  position: relative;
+  transition: all 700ms ease;
+  .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+    div {
+      background-color: $color-bluish;
+      width: 34%;
+      height: 100%;
+      border-radius: 100%;
+      position: absolute;
+      transform: scale(1.4) translateY(125%) translateZ(0);
+      transition: all 700ms ease;
+      &:nth-child(1) {
+        left: -5%;
+      }
+      &:nth-child(2) {
+        left: 30%;
+        transition-delay: 60ms;
+      }
+      &:nth-child(3) {
+        left: 66%;
+        transition-delay: 25ms;
+      }
+    }
+  }
+  &:hover {
+    color: #fff;
+    .c-button__blobs {
+      div {
+        transform: scale(1.4) translateY(0) translateZ(0);
+      }
+    }
+  }
+}

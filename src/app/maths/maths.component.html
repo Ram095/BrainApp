@@ -1,1 +1,41 @@
-<p>maths works!</p>
+<section *ngIf="imageList.length>0">
+  <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
+    <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
+    <div class="row text-center">
+      <h2>Maths</h2>
+      <div class="mathsContainer p-t-2">
+         <div>{{imageList[index].x}}</div>
+         <div>{{imageList[index].operation}}</div>
+         <div>{{imageList[index].y}}</div>
+         <div>=</div>
+         <div *ngIf="correctChoice">{{imageList[index].result}}</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="choiceContainer row p-t-2">
+        <div class="col-lg-4 text-center" *ngFor="let options of imageList[index].options">
+          <ng-template #showImage>
+            <div class="card"  (click)="submit(options.result)">
+              <div class="card__container">
+                 {{options.result}}
+              </div>
+            </div>
+          </ng-template>
+          <iframe  *ngIf="(options.result === imageList[index].result) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #completedTestTemplate>
+    <div class="text-center">
+      <img width="300px" src="./assets/36675-success.gif">
+    </div>
+    <h1 class="text-center">
+        {{correctCount}} / {{imageList.length}}
+    </h1>
+    <div class="resultbtnContainer">
+      <button class="m-t-1 btn btn-light" [routerLink]="['/dashboard']" [queryParams]="{show:'list'}">Home</button>
+      <button class="m-t-1 btn btn-primary" (click)="restartTest()">Retry</button>
+    </div>
+</ng-template>
+</section>

@@ -38,7 +38,7 @@ export class SoundIdentifyComponent implements OnInit {
     },
     { name: 'Tiger', url: './assets/sounds/Tiger.mp3', options: [ { name: 'Cat', photo: './assets/animals/cat.jpeg'}, { name: 'Tiger', photo: './assets/animals/tiger.jpeg'},{ name: 'Dog', photo: './assets/animals/dog.jpeg'}]
     },
-    { name: 'Monkey', url: './assets/sounds/Monkey.ogg', options: [{ name: 'Cat', photo: './assets/animals/cat.jpeg'},{ name: 'Lion', photo: './assets/animals/lion.jpeg'}, { name: 'Monkey', photo: './assets/animals/monkey.jpeg'}]
+    { name: 'Monkey', url: './assets/sounds/Monkey.mp3', options: [{ name: 'Cat', photo: './assets/animals/cat.jpeg'},{ name: 'Lion', photo: './assets/animals/lion.jpeg'}, { name: 'Monkey', photo: './assets/animals/monkey.jpeg'}]
     },
   ]
 

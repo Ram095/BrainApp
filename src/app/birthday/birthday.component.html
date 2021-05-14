@@ -1,0 +1,50 @@
+<section *ngIf="imageList.length>0">
+  <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
+    <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
+    <div class="row text-center">
+      <h2>Birthday Month</h2>
+      <div class="text-center questionContainer">
+         <h1>{{imageList[index].name}} ?</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="choiceContainer row p-t-2">
+        <div class="col-lg-3 text-center" *ngFor="let options of month">
+          <ng-template #showImage>
+            <a (click)="submit(options)" class="c-button c-button--gooey">
+               {{options}}
+              <div class="c-button__blobs">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </a>
+          </ng-template>
+          <iframe  *ngIf="(options === imageList[index].birthday) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #completedTestTemplate>
+    <div class="text-center">
+      <img width="300px" src="./assets/36675-success.gif">
+    </div>
+    <h1 class="text-center">
+        {{correctCount}} / {{imageList.length}}
+    </h1>
+    <div class="resultbtnContainer">
+      <button class="m-t-1 btn btn-light" [routerLink]="['/dashboard']" [queryParams]="{show:'list'}">Home</button>
+      <button class="m-t-1 btn btn-primary" (click)="restartTest()">Retry</button>
+    </div>
+</ng-template>
+</section>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+  <defs>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+          <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+  </defs>
+</svg>

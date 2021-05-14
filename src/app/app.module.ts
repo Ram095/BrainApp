@@ -12,6 +12,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { CurrencyComponent } from './currency/currency.component';
 import { MathsComponent } from './maths/maths.component';
 import { SoundIdentifyComponent } from './sound-identify/sound-identify.component';
+import { ShlokasComponent } from './shlokas/shlokas.component';
+import { BirthdayComponent } from './birthday/birthday.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { SoundIdentifyComponent } from './sound-identify/sound-identify.componen
     FamilyMembersComponent,
     CurrencyComponent,
     MathsComponent,
-    SoundIdentifyComponent
+    SoundIdentifyComponent,
+    ShlokasComponent,
+    BirthdayComponent
   ],
   imports: [
     BrowserModule,

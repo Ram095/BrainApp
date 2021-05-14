@@ -1,0 +1,43 @@
+.mathsContainer{
+  font-size: 12rem;
+  display: flex;
+  justify-content: center;
+}
+
+.choiceContainer {
+  margin-top:2rem;
+  .card__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    height:250px;
+    color: #fff;
+    background-color: #133a73;
+    border-color: #133a73;
+    transition: 0.3s ease-in-out;
+    &:hover{
+      background-color: #0b5ed7;
+      border-color: #0a58ca;
+
+    }
+  }
+  &__tickMark {
+    height : 100%;
+    width: 200px;
+  }
+}
+
+
+.m-t-1{
+  margin-top:1rem;
+}
+
+.resultbtnContainer{
+  display: flex;
+  button{
+    width: 100%;
+    font-size: 2rem;
+    height: 200px;
+  }
+}
