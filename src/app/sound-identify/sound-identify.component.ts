@@ -22,29 +22,18 @@ export class SoundIdentifyComponent implements OnInit {
 
   index=0;
 
-  imageList = [
-    {
-      name: 'Cat', url: './assets/sounds/Meow.ogg', options: [{ name: 'Cat', photo: './assets/animals/cat.jpeg'}, { name: 'Dog', photo: './assets/animals/dog.jpeg'}, { name: 'Elephant', photo: './assets/animals/elephant.jpeg'}]
-    },
-    { name: 'Dog', url: './assets/sounds/Barking_of_a_dog.ogg', options: [ { name: 'Cat', photo: './assets/animals/cat.jpeg'}, { name: 'Lion', photo: './assets/animals/lion.jpeg'},{ name: 'Dog', photo: './assets/animals/dog.jpeg'}]
-    },
-    { name: 'Goat', url: './assets/sounds/Herd_of_goats_bleating.ogg', options: [{ name: 'Goat', photo: './assets/animals/goat.png'}, { name: 'Dog', photo: './assets/animals/dog.jpeg'}, { name: 'Elephant', photo: './assets/animals/elephant.jpeg'}]
-    },
-    { name: 'Lion', url: './assets/sounds/Lion.ogg', options: [{ name: 'Cat', photo: './assets/animals/cat.jpeg'},{ name: 'Lion', photo: './assets/animals/lion.jpeg'}, { name: 'Monkey', photo: './assets/animals/monkey.jpeg'}]
-    },
-    { name: 'Crow', url: './assets/sounds/BlackCrow.ogg', options: [{ name: 'Cat', photo: './assets/animals/cat.jpeg'}, { name: 'Crow', photo: './assets/animals/crow.jpeg'}, { name: 'Elephant', photo: './assets/animals/elephant.jpeg'}]
-    },
-    { name: 'Elephant', url: './assets/sounds/elephant.mp3', options: [{ name: 'Elephant', photo: './assets/animals/elephant.jpeg'}, { name: 'Goat', photo: './assets/animals/goat.png'}, { name: 'Lion', photo: './assets/animals/lion.jpeg'}]
-    },
-    { name: 'Tiger', url: './assets/sounds/Tiger.mp3', options: [ { name: 'Cat', photo: './assets/animals/cat.jpeg'}, { name: 'Tiger', photo: './assets/animals/tiger.jpeg'},{ name: 'Dog', photo: './assets/animals/dog.jpeg'}]
-    },
-    { name: 'Monkey', url: './assets/sounds/Monkey.mp3', options: [{ name: 'Cat', photo: './assets/animals/cat.jpeg'},{ name: 'Lion', photo: './assets/animals/lion.jpeg'}, { name: 'Monkey', photo: './assets/animals/monkey.jpeg'}]
-    },
-  ]
+  imageList = []
 
   constructor(private dataLayer : DataLayerService) { }
 
   ngOnInit(): void {
+    this.fetchData(this.title);
+  }
+
+  fetchData(title): void {
+    this.dataLayer.getData().subscribe((res) => {
+      this.imageList = res[title];
+    })
   }
 
   submit(name) {

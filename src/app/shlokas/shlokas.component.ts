@@ -8,7 +8,7 @@ import { DataLayerService } from 'src/services/data-layer.service';
   styleUrls: ['./shlokas.component.scss']
 })
 export class ShlokasComponent implements OnInit {
-  title = 'music';
+  title = 'shlokas';
 
   correctChoice = false;
 
@@ -22,25 +22,7 @@ export class ShlokasComponent implements OnInit {
 
   index=0;
 
-  imageList = [{
-    url: 'https://www.youtube.com/embed/ijfLsKg8jFY?start=118', name: 'OM'
-  },
-  {
-    url: 'https://www.youtube.com/embed/HN9r8eLcA_E', name: 'OM'
-  },
-  {
-    url : 'https://www.youtube.com/embed/a_kxY0-LL6Q?start=50', name: 'Hare krishna'
-  },
-  {
-    url: 'https://www.youtube.com/embed/Np28O3Y_P2o?start=50', name: 'Ayigiri Nandini'
-  },
-  {
-    url: 'https://www.youtube.com/embed/t8dydP_M89o', name: 'gayatri mantra'
-  },
-  {
-    url: 'https://www.youtube.com/embed/T7eXrxhlUhU?start=14', name: 'har har shivane'
-  }
-];
+  imageList = [];
 
   constructor(private dataLayer : DataLayerService) { }
 
@@ -50,7 +32,7 @@ export class ShlokasComponent implements OnInit {
 
   fetchData(title): void {
     this.dataLayer.getData().subscribe((res) => {
-      // this.imageList = res[title];
+      this.imageList = res[title];
     })
   }
 

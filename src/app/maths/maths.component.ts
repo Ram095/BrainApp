@@ -22,41 +22,7 @@ export class MathsComponent implements OnInit {
 
   index=0;
 
-  imageList = [
-    {
-      result: '2', x: '1', y: '1', operation: '+', options: [{ result: '3' }, { result: '4' }, { result: '2' }]
-    },
-    {
-      result: '3', x: '1', y: '2', operation: '+', options: [{ result: '4' }, { result: '3' }, { result: '1' }]
-    },
-    {
-      result: '4', x: '2', y: '2', operation: '+', options: [{ result: '5' }, { result: '4' }, { result: '2' }]
-    },
-    {
-      result: '6', x: '3', y: '3', operation: '+', options: [{ result: '1' }, { result: '2' }, { result: '6' }]
-    },
-    {
-      result: '5', x: '3', y: '2', operation: '+', options: [{ result: '5' }, { result: '3' }, { result: '1' }]
-    },
-    {
-      result: '2', x: '4', y: '2', operation: '-', options: [{ result: '2' }, { result: '5' }, { result: '6' }]
-    },
-    {
-      result: '2', x: '3', y: '1', operation: '-', options: [{ result: '4' }, { result: '2' }, { result: '1' }]
-    },
-    {
-      result: '1', x: '2', y: '1', operation: '-', options: [{ result: '2' }, { result: '1' }, { result: '3' }]
-    },
-    {
-      result: '8', x: '4', y: '4', operation: '+', options: [{ result: '8' }, { result: '1' }, { result: '3' }]
-    },
-    {
-      result: '10', x: '5', y: '5', operation: '+', options: [{ result: '3' }, { result: '6' }, { result: '10' }]
-    },
-    {
-      result: '20', x: '10', y: '10', operation: '+', options: [{ result: '20' }, { result: '5' }, { result: '30' }]
-    }
-  ];
+  imageList = [];
 
   constructor(private dataLayer : DataLayerService) { }
 
@@ -71,7 +37,8 @@ export class MathsComponent implements OnInit {
   }
 
   submit(place) {
-    if (place.toLowerCase() === (this.imageList[this.index].result).toLowerCase()) {
+    debugger;
+    if (place === (this.imageList[this.index].result)) {
       this.correctCount += 1;
       this.correctChoice = true;
       setTimeout(() => {

@@ -8,7 +8,7 @@ import { DataLayerService } from 'src/services/data-layer.service';
   styleUrls: ['./birthday.component.scss']
 })
 export class BirthdayComponent implements OnInit {
-  title = 'family';
+  title = 'birthday';
 
   faChevronLeft = faChevronLeft;
 
@@ -22,16 +22,7 @@ export class BirthdayComponent implements OnInit {
 
   index=0;
 
-  imageList = [{ name: 'Sitaram', birthday: 'February' },
-    { name: 'Daddy', birthday: 'March' },
-    { name: 'Max', birthday: 'May' },
-    { name: 'Valli', birthday: 'May' },
-    { name: 'Muthukrishnan', birthday: 'November' },
-    { name: 'Yazhini', birthday: 'May' },
-    { name: 'Amrita', birthday: 'August' },
-    { name: 'Atharva', birthday: 'May' },
-    { name: 'Gawthami', birthday: 'December' }
-  ];
+  imageList = [];
 
   month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
@@ -42,9 +33,9 @@ export class BirthdayComponent implements OnInit {
   }
 
   fetchData(title): void {
-    // this.dataLayer.getData().subscribe((res) => {
-    //   this.imageList = res[title];
-    // })
+    this.dataLayer.getData().subscribe((res) => {
+      this.imageList = res[title];
+    })
   }
 
   submit(name) {

@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class DataLayerService {
 
-  url = "https://muthu.s3-us-west-2.amazonaws.com/brainapp/data.json";
+  url = "https://cognifitapp.s3.us-east-2.amazonaws.com/data.json";
 
   constructor(private http: HttpClient) { }
 
