@@ -3,12 +3,12 @@
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
       <h2>Maths</h2>
-      <div class="mathsContainer p-t-2">
+      <div class="mathsContainer p-t-2 wow animate__animated animate__fadeIn">
          <div>{{imageList[index].x}}</div>
          <div>{{imageList[index].operation}}</div>
          <div>{{imageList[index].y}}</div>
          <div>=</div>
-         <div *ngIf="correctChoice">{{imageList[index].result}}</div>
+         <div *ngIf="correctChoice" class="wow animate__animated animate__bounceInUp">{{imageList[index].result}}</div>
       </div>
     </div>
     <div class="container">

@@ -3,15 +3,15 @@
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
       <h2>Birthday Month</h2>
-      <div class="text-center questionContainer">
+      <div class="text-center questionContainer wow animate__animated animate__bounceIn">
          <h1>{{imageList[index].name}} ?</h1>
       </div>
     </div>
     <div class="container">
       <div class="choiceContainer row p-t-2">
-        <div class="col-lg-3 text-center" *ngFor="let options of month">
+        <div class="col-lg-3 text-center " *ngFor="let options of month">
           <ng-template #showImage>
-            <a (click)="submit(options)" class="c-button c-button--gooey">
+            <a (click)="submit(options)" class="c-button c-button--gooey wow animate__animated animate__fadeIn">
                {{options}}
               <div class="c-button__blobs">
                 <div></div>

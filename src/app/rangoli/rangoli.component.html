@@ -2,21 +2,21 @@
   <ng-container *ngIf="!completedTest; else completedTestTemplate" class="testContainer container">
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
-      <h2>Shlokas & music</h2>
-      <div class="imageContainer p-t-2">
-        <iframe id="shlokas" src="https://www.youtube.com/embed/ijfLsKg8jFY?start=118&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2>{{imageList[index].name}}</h2>
+      <div class="imageContainer p-t-2 wow animate__animated animate__fadeIn">
+        <img id="rangoli" src="{{imageList[index].url}}" />
       </div>
     </div>
     <div class="container">
       <div class="choiceContainer text-center row p-t-2">
-        <div class="col-lg-4 text-center" >
+        <div class="col-lg-4 text-center wow animate__animated animate__fadeIn" >
             <div class="card"  (click)="back()">
               <div class="card__container">
                 BACK
               </div>
             </div>
         </div>
-        <div class="col-lg-4 text-center" >
+        <div class="col-lg-4 text-center wow animate__animated animate__fadeIn" >
           <div class="card"  (click)="next()">
             <div class="card__container">
               NEXT

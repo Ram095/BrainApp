@@ -49,6 +49,7 @@ export class BirthdayComponent implements OnInit {
         }
         this.correctChoice = false;
         this.index += 1;
+        window.scroll(0,0);
       },2000)
     } else {
       this.incorrectCount += 1;

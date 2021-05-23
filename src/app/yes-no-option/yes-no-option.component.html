@@ -3,14 +3,14 @@
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
       <h2>Is this {{imageList[index].name}} ?</h2>
-      <div class="imageContainer">
+      <div class="imageContainer wow animate__animated animate__zoomIn">
         <img src="{{imageList[index].url}}"/>
       </div>
     </div>
     <div class="choiceContainer row">
-      <div class="col-6">
+      <div class="col-lg-6 col-xs-12 ">
         <ng-template #showImage>
-          <button class="btn btn-primary" (click)="submit(true)">
+          <button class="btn btn-primary wow animate__animated animate__fadeIn" (click)="submit(true)">
             YES
           </button>
         </ng-template>
@@ -18,9 +18,9 @@
           <iframe  *ngIf="(imageList[index].answer == true) && correctChoice; else showImage" class="choiceContainer__tickMark" src="https://lottiefiles.com/iframe/54054-check-zinli"></iframe>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6 col-xs-12">
         <ng-template #showFalseImage>
-          <button class="btn btn-danger" (click)="submit(false)">
+          <button class="btn btn-danger wow animate__animated animate__fadeIn" (click)="submit(false)">
             NO
           </button>
         </ng-template>

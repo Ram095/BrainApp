@@ -1,0 +1,674 @@
+{
+    "family": [
+      {
+        "name": "Atharva",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Atharva.jpeg",
+            "name": "Atharva"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amma.jpeg",
+            "name": "Amma"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Selvam.jpeg",
+            "name": "Selvam"
+          }
+        ]
+      },
+      {
+        "name": "Yazhini",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Yazhini.jpeg",
+            "name": "Yazhini"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Rakesh.jpeg",
+            "name": "Rakesh"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Gawthami.jpeg",
+            "name": "Gawthami"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Selvam.jpeg",
+            "name": "Selvam"
+          }
+        ]
+      },
+      {
+        "name": "Selvam",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Rakesh.jpeg",
+            "name": "Rakesh"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amma.jpeg",
+            "name": "Amma"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Selvam.jpeg",
+            "name": "Selvam"
+          }
+        ]
+      },
+      {
+        "name": "Amrita",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Gawthami.jpeg",
+            "name": "Gawthami"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amrita.jpeg",
+            "name": "Amrita"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Siva.jpeg",
+            "name": "Siva"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          }
+        ]
+      },
+      {
+        "name": "Gawthami",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/kala.jpeg",
+            "name": "Kala"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Mani.jpeg",
+            "name": "Mani"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Gawthami.jpeg",
+            "name": "Gawthami"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Prema.jpeg",
+            "name": "Prema"
+          }
+        ]
+      },
+      {
+        "name": "Mani",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amma.jpeg",
+            "name": "Amma"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Siva.jpeg",
+            "name": "Siva"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Cyril.jpeg",
+            "name": "Cyril"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Mani.jpeg",
+            "name": "Mani"
+          }
+        ]
+      },
+      {
+        "name": "Sitaram",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Sitaram.jpeg",
+            "name": "Sitaram"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Gawthami.jpeg",
+            "name": "Gawthami"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Prema.jpeg",
+            "name": "Prema"
+          }
+        ]
+      },
+      {
+        "name": "Siva",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Siva.jpeg",
+            "name": "Siva"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Muthukrishnan.jpeg",
+            "name": "Muthukrishnan"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Thukkaram.jpeg",
+            "name": "Thukkaram"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Cyril.jpeg",
+            "name": "Cyril"
+          }
+        ]
+      },
+      {
+        "name": "Muthukrishnan",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amma.jpeg",
+            "name": "Amma"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Yazhini.jpeg",
+            "name": "Yazhini"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Muthukrishnan.jpeg",
+            "name": "Muthukrishnan"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          }
+        ]
+      },
+      {
+        "name": "Amma",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Yazhini.jpeg",
+            "name": "Yazhini"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amma.jpeg",
+            "name": "Amma"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Gawthami.jpeg",
+            "name": "Gawthami"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Selvam.jpeg",
+            "name": "Selvam"
+          }
+        ]
+      },
+      {
+        "name": "Adam",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Muthukrishnan.jpeg",
+            "name": "Muthukrishnan"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Cyril.jpeg",
+            "name": "Cyril"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Mani.jpeg",
+            "name": "Mani"
+          }
+        ]
+      },
+      {
+        "name": "Thukkaram",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Thukkaram.jpeg",
+            "name": "Thukkaram"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amrita.jpeg",
+            "name": "Amrita"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Siva.jpeg",
+            "name": "Siva"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          }
+        ]
+      },
+      {
+        "name": "Rakesh",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/kala.jpeg",
+            "name": "Kala"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Rakesh.jpeg",
+            "name": "Rakesh"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Amma.jpeg",
+            "name": "Amma"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Siva.jpeg",
+            "name": "Siva"
+          }
+        ]
+      },
+      {
+        "name": "Cyril",
+        "options": [
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Adam.jpeg",
+            "name": "Adam"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Muthukrishnan.jpeg",
+            "name": "Muthukrishnan"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Cyril.jpeg",
+            "name": "Cyril"
+          },
+          {
+            "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/family/Mani.jpeg",
+            "name": "Mani"
+          }
+        ]
+      }
+    ],
+    "animals": [
+      {
+        "name": "elephant",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/elephant.jpeg",
+        "answer": true
+      },
+      {
+        "name": "giraffe",
+        "url": "https://aniportalimages.s3.amazonaws.com/media/details/animals_11_nSjPC6b.jpg",
+        "answer": false
+      },
+      {
+        "name": "rabbit",
+        "url": "https://navs.org/wp-content/uploads/bb-plugin/cache/bunny-landscape.jpg",
+        "answer": true
+      },
+      {
+        "name": "dog",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/dog.jpeg",
+        "answer": true
+      },
+      {
+        "name": "goat",
+        "url": "https://metro.co.uk/wp-content/uploads/2018/05/sei_14589401.jpg?quality=90&strip=all",
+        "answer": false
+      },
+      {
+        "name": "monkey",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/monkey.jpeg",
+        "answer": true
+      },
+      {
+        "name": "rhino",
+        "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/najin-and-her-offspring-fatu-two-female-northern-white-news-photo-1607463656.?crop=1xw:1xh;center,top&resize=480:*",
+        "answer": true
+      },
+      {
+        "name": "tiger",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/tiger.jpeg",
+        "answer": true
+      },
+      {
+        "name": "camel",
+        "url": "https://www.oneindia.com/img/2017/04/cow2-24-1493030350.jpg",
+        "answer": false
+      },
+      {
+        "name": "horse",
+        "url": "https://www.treehugger.com/thmb/4POnzxta535OuxqNIRBWCUzK39M=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/horse.primary-e9a47e1c486c4fb7bf729e05b59cf0df.jpg",
+        "answer": true
+      },
+      {
+        "name": "camel",
+        "url": "http://www.todayifoundout.com/wp-content/uploads/2010/07/Copy-of-Arabian-Camel-800x600.jpg",
+        "answer": true
+      },
+      {
+        "name": "sheep",
+        "url": "https://spcabc.b-cdn.net/wp-content/uploads/lamb-in-grassy-field-825x550.jpg",
+        "answer": true
+      },
+      {
+        "name": "lion",
+        "url": "https://www.thehindubusinessline.com/news/variety/z9plsb/article30390447.ece/ALTERNATES/LANDSCAPE_615/bl25Goatspix",
+        "answer": false
+      }
+    ],
+    "places": [
+      {
+        "name": "Mysore Palace",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/IMG_20191214_130421.jpg",
+        "options": [
+          {
+            "place": "Mysore Palace"
+          },
+          {
+            "place": "Iskon Temple"
+          },
+          {
+            "place": "Pamban Bridge"
+          }
+        ]
+      },
+      {
+        "name": "Thanjavur Temple",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/IMG-20191101-WA0041.jpg",
+        "options": [
+          {
+            "place": "Iskon Temple"
+          },
+          {
+            "place": "Thanjavur Temple"
+          },
+          {
+            "place": "Srinagar"
+          }
+        ]
+      },
+      {
+        "name": "Srinagar",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/Srinagar2.jpeg",
+        "options": [
+          {
+            "place": "Thanjavur Temple"
+          },
+          {
+            "place": "Srinagar"
+          },
+          {
+            "place": "Kota, Rajasthan"
+          }
+        ]
+      },
+      {
+        "name": "Yelagiri Temple",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/IMG_20200117_173138.jpg",
+        "options": [
+          {
+            "place": "Mysore Palace"
+          },
+          {
+            "place": "Rameshwaram Temple"
+          },
+          {
+            "place": "Yelagiri Temple"
+          }
+        ]
+      },
+      {
+        "name": "Golden Temple",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/goldenTemple.jpeg",
+        "options": [
+          {
+            "place": "Mysore Palace"
+          },
+          {
+            "place": "Golden Temple"
+          },
+          {
+            "place": "Yelagiri Temple"
+          }
+        ]
+      },
+      {
+        "name": "Taj hotel, Mumbai",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/tajHotelMumbai.jpeg",
+        "options": [
+          {
+            "place": "Mysore Palace"
+          },
+          {
+            "place": "Golden Temple"
+          },
+          {
+            "place": "Taj hotel, Mumbai"
+          }
+        ]
+      },
+      {
+        "name": "Jallianwala Bagh, Amritsar",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/jaliawalaBagh.jpeg",
+        "options": [
+          {
+            "place": "Mysore Palace"
+          },
+          {
+            "place": "Jallianwala Bagh, Amritsar"
+          },
+          {
+            "place": "Iskon Temple"
+          }
+        ]
+      },
+      {
+        "name": "Gateway of India, Mumbai",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/gatewayOfIndia.jpeg",
+        "options": [
+          {
+            "place": "Gateway of India, Mumbai"
+          },
+          {
+            "place": "Golden Temple"
+          },
+          {
+            "place": "Iskon Temple"
+          }
+        ]
+      },
+      {
+        "name": "Srinagar",
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/places/Srinagar.jpeg",
+        "options": [
+          {
+            "place": "Thanjavur Temple"
+          },
+          {
+            "place": "Srinagar"
+          },
+          {
+            "place": "Kota, Rajasthan"
+          }
+        ]
+      }
+    ],
+    "birthday" : [
+      { "name": "Sitaram", "birthday": "February" },
+      { "name": "Daddy", "birthday": "March" },
+      { "name": "Max", "birthday": "May" },
+      { "name": "Valli", "birthday": "May" },
+      { "name": "Muthukrishnan", "birthday": "November" },
+      { "name": "Yazhini", "birthday": "May" },
+      { "name": "Amrita", "birthday": "August" },
+      { "name": "Atharva", "birthday": "May" },
+      { "name": "Gawthami", "birthday": "December" }
+    ],
+    "currency" : [
+      {
+          "name": "1", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/1.jpeg", "options": [{ "name": "200"}, { "name": "1"}, { "name": "5"}]
+      },
+      {
+        "name": "2", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/2.jpeg", "options": [{ "name": "2"}, { "name": "1"}, { "name": "5"}]
+      },
+      {
+        "name": "5", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/5.jpeg", "options": [{ "name": "200"}, { "name": "1"}, { "name": "5"}]
+      },
+      {
+        "name": "10", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/10.png", "options": [{ "name": "10"}, { "name": "50"}, { "name": "100"}]
+      },
+      {
+        "name": "100", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/100.png", "options": [{ "name": "200"}, { "name": "100"}, { "name": "500"}]
+      },
+      {
+        "name": "200", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/200.png", "options": [{ "name": "20"}, { "name": "10"}, { "name": "200"}]
+      },
+      {
+        "name": "50", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/50.png", "options": [{ "name": "50"}, { "name": "100"}, { "name": "2000"}]
+      },
+      {
+        "name": "2000", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/2000.jpeg", "options": [{ "name": "2000"}, { "name": "10"}, { "name": "200"}]
+      },
+      {
+        "name": "20", "url" : "https://cognifitapp.s3.us-east-2.amazonaws.com/currency/20.png", "options": [{ "name": "200"}, { "name": "20"}, { "name": "500"}]
+    }],
+    "maths" : [
+      {
+        "result": "2", "x": "1", "y": "1", "operation": "+", "options": [{ "result": "3" }, { "result": "4" }, { "result": "2" }]
+      },
+      {
+        "result": "3", "x": "1", "y": "2", "operation": "+", "options": [{ "result": "4" }, { "result": "3" }, { "result": "1" }]
+      },
+      {
+        "result": "4", "x": "2", "y": "2", "operation": "+", "options": [{ "result": "5" }, { "result": "4" }, { "result": "2" }]
+      },
+      {
+        "result": "6", "x": "3", "y": "3", "operation": "+", "options": [{ "result": "1" }, { "result": "2" }, { "result": "6" }]
+      },
+      {
+        "result": "5", "x": "3", "y": "2", "operation": "+", "options": [{ "result": "5" }, { "result": "3" }, { "result": "1" }]
+      },
+      {
+        "result": "2", "x": "4", "y": "2", "operation": "-", "options": [{ "result": "2" }, { "result": "5" }, { "result": "6" }]
+      },
+      {
+        "result": "2", "x": "3", "y": "1", "operation": "-", "options": [{ "result": "4" }, { "result": "2" }, { "result": "1" }]
+      },
+      {
+        "result": "1", "x": "2", "y": "1", "operation": "-", "options": [{ "result": "2" }, { "result": "1" }, { "result": "3" }]
+      },
+      {
+        "result": "8", "x": "4", "y": "4", "operation": "+", "options": [{ "result": "8" }, { "result": "1" }, { "result": "3" }]
+      },
+      {
+        "result": "10", "x": "5", "y": "5", "operation": "+", "options": [{ "result": "3" }, { "result": "6" }, { "result": "10" }]
+      },
+      {
+        "result": "20", "x": "10", "y": "10", "operation": "+", "options": [{ "result": "20" }, { "result": "5" }, { "result": "30" }]
+      }
+    ],
+    "shlokas" : [
+      {
+        "url": "https://www.youtube.com/embed/ijfLsKg8jFY?start=118", "name": "OM"
+      },
+      {
+        "url": "https://www.youtube.com/embed/ccBcAWE_lIY", "name": "OM Namash shivay"
+      },
+      {
+        "url": "https://www.youtube.com/embed/1xfrJ0Sg0P4", "name": "OM"
+      },
+      {
+        "url" : "https://www.youtube.com/embed/a_kxY0-LL6Q?start=50", "name": "Hare krishna"
+      },
+      {
+        "url": "https://www.youtube.com/embed/Np28O3Y_P2o?start=50", "name": "Ayigiri Nandini"
+      },
+      {
+        "url": "https://www.youtube.com/embed/t8dydP_M89o", "name": "gayatri mantra"
+      },
+      {
+        "url": "https://www.youtube.com/embed/T7eXrxhlUhU?start=14", "name": "har har shivane"
+      }
+    ],
+    "sound" : [
+      {
+        "name": "Cat", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/Meow.ogg", "options": [{ "name": "Cat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/cat.jpeg"}, { "name": "Dog", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/dog.jpeg"}, { "name": "Elephant", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/elephant.jpeg"}]
+      },
+      { "name": "Dog", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/Barking_of_a_dog.ogg", "options": [ { "name": "Cat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/cat.jpeg"}, { "name": "Lion", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/lion.jpeg"},{ "name": "Dog", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/dog.jpeg"}]
+      },
+      { "name": "Goat", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/Herd_of_goats_bleating.ogg", "options": [{ "name": "Goat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/goat.png"}, { "name": "Dog", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/dog.jpeg"}, { "name": "Elephant", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/elephant.jpeg"}]
+      },
+      { "name": "Lion", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/Lion.ogg", "options": [{ "name": "Cat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/cat.jpeg"},{ "name": "Lion", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/lion.jpeg"}, { "name": "Monkey", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/monkey.jpeg"}]
+      },
+      { "name": "Crow", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/BlackCrow.ogg", "options": [{ "name": "Cat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/cat.jpeg"}, { "name": "Crow", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/crow.jpeg"}, { "name": "Elephant", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/elephant.jpeg"}]
+      },
+      { "name": "Elephant", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/elephant.mp3", "options": [{ "name": "Elephant", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/elephant.jpeg"}, { "name": "Goat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/goat.png"}, { "name": "Lion", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/lion.jpeg"}]
+      },
+      { "name": "Tiger", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/Tiger.mp3", "options": [ { "name": "Cat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/cat.jpeg"}, { "name": "Tiger", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/tiger.jpeg"},{ "name": "Dog", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/dog.jpeg"}]
+      },
+      { "name": "Monkey", "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/sounds/Monkey.mp3", "options": [{ "name": "Cat", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/cat.jpeg"},{ "name": "Lion", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/lion.jpeg"}, { "name": "Monkey", "photo": "https://cognifitapp.s3.us-east-2.amazonaws.com/animals/monkey.jpeg"}]
+      }
+    ],
+    "rangoli" : [
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli1.jpeg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli2.jpeg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli3.jpg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli4.jpg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli5.jpg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli6.jpeg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli7.jpg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli8.jpg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli9.jpeg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/rangoli10.jpg", "name": "Rangoli"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/flower.jpeg", "name": "Flower"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/boat.jpeg", "name": "Boat"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/diamond.jpeg", "name": "Diamond"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/ghost.jpeg", "name": "Ghost"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/Icecream.jpeg", "name": "Ice-cream"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/cloud.jpeg", "name": "Cloud"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/tortoise.jpeg", "name": "Tortoise"
+      },
+      {
+        "url": "https://cognifitapp.s3.us-east-2.amazonaws.com/rangoli/caterpillar.png", "name": "Caterpillar"
+      }
+    ]
+  }

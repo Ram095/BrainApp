@@ -37,7 +37,6 @@ export class MathsComponent implements OnInit {
   }
 
   submit(place) {
-    debugger;
     if (place === (this.imageList[this.index].result)) {
       this.correctCount += 1;
       this.correctChoice = true;

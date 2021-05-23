@@ -3,7 +3,7 @@
     <a [routerLink]="['/dashboard']" [queryParams]="{show:'list'}" class="testContainer__anchor"><fa-icon [icon]="faChevronLeft" size="2x"></fa-icon>Home</a>
     <div class="row text-center">
       <h2>Identify the location/Place?</h2>
-      <div class="imageContainer p-t-2">
+      <div class="imageContainer wow animate__animated animate__zoomIn">
         <img src="{{imageList[index].url}}"/>
       </div>
     </div>
@@ -11,7 +11,7 @@
       <div class="choiceContainer row p-t-2">
         <div class="col-lg-4 text-center" *ngFor="let options of imageList[index].options">
           <ng-template #showImage>
-            <div class="card"  (click)="submit(options.place)">
+            <div class="card wow animate__animated animate__fadeIn"  (click)="submit(options.place)">
               <div class="card__container">
                  {{options.place}}
               </div>

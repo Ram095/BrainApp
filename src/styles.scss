@@ -80,3 +80,161 @@
     }
   }
 }
+
+@media only screen and (max-width: 450px) {
+
+  .dashboard {
+    .dashboardImage{
+      padding: 3rem 0!important;
+      img {
+        width: 250px!important;
+      }
+    }
+
+    .getStarted {
+      padding: 2rem 5rem!important;
+    }
+  }
+
+    .imageContainer{
+      width: 80vw;
+      height: auto!important;
+      margin-top: 2rem;
+      img{
+        width: 80vw;
+        height: auto!important;
+      }
+    }
+
+  .row {
+    h2{
+      margin-top: 4rem;
+    }
+  }
+
+  .choiceContainer{
+    button {
+      height: 140px!important;
+    }
+    &__tickMark {
+      width: 140px!important;
+    }
+    .col-lg-6 {
+      margin-bottom: 1rem;
+    }
+    .h-100 {
+      height: auto!important;
+    }
+  }
+
+  app-yes-no-option{
+    .choiceContainer{
+      button{
+        font-size: 1rem!important;
+        height: 100px!important;
+      }
+      &__tickMark {
+        width: 100px!important;
+      }
+    }
+  }
+
+  app-currency{
+    .choiceContainer {
+      .card{
+        margin-bottom: 1rem;
+        &__container {
+          height: 100px!important;
+        }
+      }
+
+      &__tickMark {
+        width: 100px!important;
+      }
+    }
+  }
+
+  app-maths{
+    .mathsContainer {
+      font-size: 4rem!important;
+    }
+
+    .choiceContainer {
+      .card{
+        margin-bottom: 1rem;
+        &__container {
+          height: 100px!important;
+        }
+      }
+
+      &__tickMark {
+        width: 100px!important;
+      }
+    }
+  }
+
+  app-select-tourist-place{
+    .choiceContainer {
+      .card{
+        margin-bottom: 1rem;
+        &__container {
+          height: 100px!important;
+          font-size: 1rem!important;
+        }
+      }
+
+      &__tickMark {
+        width: 100px!important;
+      }
+    }
+  }
+
+  app-sound-identify{
+    .choiceContainer {
+      .card{
+        margin-bottom: 1rem;
+        &__container {
+          height: 150px!important;
+          font-size: 1rem!important;
+        }
+      }
+
+      &__tickMark {
+        width: 100px!important;
+      }
+    }
+  }
+
+  app-shlokas{
+    iframe{
+      width: 250px!important;
+    }
+
+    .choiceContainer {
+      margin-top:0!important;
+      .card{
+        margin-bottom: 1rem;
+        &__container {
+          height: 100px!important;
+          font-size: 1rem!important;
+        }
+      }
+    }
+  }
+
+  app-rangoli{
+    .imageContainer{
+      margin-top: 0!important;
+    }
+    .choiceContainer {
+      margin-top:0!important;
+      .card{
+        margin-bottom: 1rem;
+        &__container {
+          height: 100px!important;
+          font-size: 1rem!important;
+        }
+      }
+    }
+  }
+}

@@ -14,6 +14,7 @@ import { MathsComponent } from './maths/maths.component';
 import { SoundIdentifyComponent } from './sound-identify/sound-identify.component';
 import { ShlokasComponent } from './shlokas/shlokas.component';
 import { BirthdayComponent } from './birthday/birthday.component';
+import { RangoliComponent } from './rangoli/rangoli.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { BirthdayComponent } from './birthday/birthday.component';
     MathsComponent,
     SoundIdentifyComponent,
     ShlokasComponent,
-    BirthdayComponent
+    BirthdayComponent,
+    RangoliComponent
   ],
   imports: [
     BrowserModule,

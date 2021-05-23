@@ -5,6 +5,7 @@ import { CurrencyComponent } from './currency/currency.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FamilyMembersComponent } from './family-members/family-members.component';
 import { MathsComponent } from './maths/maths.component';
+import { RangoliComponent } from './rangoli/rangoli.component';
 import { SelectTouristPlaceComponent } from './select-tourist-place/select-tourist-place.component';
 import { ShlokasComponent } from './shlokas/shlokas.component';
 import { SoundIdentifyComponent } from './sound-identify/sound-identify.component';
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'sound', component: SoundIdentifyComponent},
   {path:'maths', component: MathsComponent},
   {path:'shlokas', component: ShlokasComponent},
-  {path:'birthday', component: BirthdayComponent}
+  {path:'birthday', component: BirthdayComponent},
+  {path:'rangoli', component: RangoliComponent}
 ];
 
 @NgModule({
